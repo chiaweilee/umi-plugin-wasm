@@ -1,0 +1,17 @@
+{
+  "name": "vue-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "analyze": "ANALYZE=1 umi build",
+    "build": "umi build",
+    "dev": "umi dev",
+    "preview": "umi preview",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.1.0",
+    "umi-plugin-wasm": "workspace:*"
+  }
+}

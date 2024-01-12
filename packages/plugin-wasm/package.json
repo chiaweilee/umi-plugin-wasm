@@ -1,0 +1,31 @@
+{
+  "name": "umi-plugin-wasm",
+  "version": "0.1.0",
+  "description": "Umi plugin for WebAssembly",
+  "homepage": "https://github.com/chiaweilee/umi-plugin-wasm/tree/master/packages/plugin-wasm#readme",
+  "bugs": "https://github.com/chiaweilee/umi-plugin-wasm/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiaweilee/umi-plugin-wasm"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "umi-scripts father build",
+    "build:deps": "umi-scripts bundleDeps",
+    "dev": "umi-scripts father dev"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "chiaweilee <ljw@live.jp> (https://github.com/chiaweilee)"
+  ]
+}

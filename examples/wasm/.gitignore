@@ -1,0 +1,10 @@
+/.env.local
+/.sanyarc.local.ts
+/.sanyarc.local.js
+/config/config.local.ts
+/config/config.local.js
+/src/.sanya
+/.sanya
+/.sanya-production
+/dist
+/node_modules
